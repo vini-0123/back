@@ -5,7 +5,10 @@ const copyExpress = a()
 copyExpress.use(b())
 
 copyExpress.get('/meuendpoint',(req,res)=>{
-    res.send('Olá Mundo')
+    res.send([
+        {nome:"teste", rgm:"123", curso:"ADS"},
+        {nome:"testeDOIS", rgm:"321", curso:"ADM"}
+    ])
 })
 
 copyExpress.listen(3078, ()=>{
