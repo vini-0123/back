@@ -7,9 +7,9 @@ copyExpress.use(b())
 copyExpress.get('/meuendpoint',(req,res)=>{
     res.send([
         {nome:"teste", rgm:"123", curso:"ADS"},
-        {nome:"testeDOIS", rgm:"321", curso:"ADM"}
-        {nome:"Jao", rgm:"231", curso:"ADS"}
-        {nome:"Plinio", rgm:"312", curso:"MKT"}
+        {nome:"testeDOIS", rgm:"321", curso:"ADM"},
+        {nome:"Jao", rgm:"231", curso:"ADS"},
+        {nome:"", rgm:"312", curso:"MKT"}
     ])
 })
 
